@@ -1,14 +1,18 @@
 import "./App.css";
 import Weather from "./Weather";
+import Loader from "react-loader-spinner";
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<h1>Weather app is currently being built.</h1>
-				<h3>Watch this space!</h3>
-				<Weather />
-			</header>
+			<Loader
+				type="Puff"
+				color="orange"
+				height={100}
+				width={100}
+				timeout={3000} //10 secs
+			/>
+			<Weather />
 		</div>
 	);
 }

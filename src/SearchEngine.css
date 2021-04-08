@@ -1,0 +1,23 @@
+.Search .form-control {
+	display: block;
+	background: rgba(255, 255, 255, 0.753);
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+}
+.Search .search {
+	display: flex;
+	flex-grow: 2;
+	padding: 10px;
+}
+
+.Search .search-button {
+	padding: 10px;
+	flex-grow: 2;
+}
+
+.Search .location-button {
+	padding: 10px;
+	flex-grow: 1;
+	flex-flow: row-wrap;
+}

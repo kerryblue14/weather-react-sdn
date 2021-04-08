@@ -1,16 +1,11 @@
 import React from "react";
-import Loader from "react-loader-spinner";
+import SearchEngine from "./SearchEngine";
 
 export default function Weather() {
 	return (
 		<div className="Weather">
-			<Loader
-				type="Puff"
-				color="orange"
-				height={100}
-				width={100}
-				timeout={10000} //10 secs
-			/>
+			<h2>Weather App</h2>
+			<SearchEngine />
 		</div>
 	);
 }
