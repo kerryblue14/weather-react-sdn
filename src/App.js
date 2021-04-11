@@ -7,6 +7,9 @@ function App() {
 			<div className="container-fluid">
 				<Weather />
 			</div>
+			<p>
+				<a>Open-source code</a> by <a>Sharlene Nair</a>
+			</p>
 		</div>
 	);
 }
