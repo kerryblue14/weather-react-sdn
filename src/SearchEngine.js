@@ -24,6 +24,7 @@ export default function SearchEngine() {
 									className="search-button btn btn-outline-primary"
 									value="Search"
 								>
+									{" "}
 									Search
 								</button>
 							</div>

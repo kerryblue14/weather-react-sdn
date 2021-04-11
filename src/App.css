@@ -1,5 +1,4 @@
 .App {
-	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -14,7 +13,6 @@
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
 	display: block;
-	background-color: rgba(24, 22, 22, 0.616);
 	border-radius: 5px;
 	margin: 0 auto;
 	padding: 0 20px 40px 20px;
