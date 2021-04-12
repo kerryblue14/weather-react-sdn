@@ -12,6 +12,12 @@ export default function Weather() {
 				<SearchEngine />
 				<Today />
 				<Forecast />
+				<p>
+					<a href="https://github.com/kerryblue14/weather-react-sdn">
+						Open-source code
+					</a>{" "}
+					by Sharlene Nair.
+				</p>
 			</div>
 		</div>
 	);

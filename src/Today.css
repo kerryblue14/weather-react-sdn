@@ -4,14 +4,14 @@
 
 .Today h1 {
 	margin: 0 auto;
-	padding: 5px 5px 5px;
+	padding: 5px 5px 5px 15px;
 	font-size: 45px;
 	text-align: left;
 }
 
 .Today ul {
 	display: block;
-	padding: 5px 5px 5px;
+	padding: 5px 5px 5px 15px;
 	list-style: none;
 	text-align: left;
 }
