@@ -1,0 +1,17 @@
+.Forecast {
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 14px;
+	text-align: left;
+	color: #505651;
+	text-align: left;
+}
+
+.Forecast ul {
+	list-style: none;
+}
+
+.Forecast .foreDay {
+	padding: 12px 20px 12px 12px;
+}
