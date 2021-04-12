@@ -1,11 +1,11 @@
 import React from "react";
 import "./Today.css";
-import axios from "axios";
+//import axios from "axios";
 
 export default function Today() {
 	// data should be replaced with response from api
-	let apiKey = "";
-	let apiUrl = "";
+	//let apiKey = "887d8093cbd06edf7d16ee93f0400421";
+	//let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${todayData.city}&appid=${apiKey}1&units=metric`;
 	let todayData = {
 		city: "London", // maybe use props here ?
 		date: "Day, Date & Time HH:MM",
@@ -21,7 +21,7 @@ export default function Today() {
 		<div className="row bg justify-content-center">
 			<div className="Today">
 				<h1>{todayData.city}</h1>
-				<ul className="now-Today">
+				<ul className="now-Data">
 					<li>{todayData.date}</li>
 					<li>{todayData.description}</li>
 				</ul>
@@ -45,16 +45,28 @@ export default function Today() {
 					<div className="col-6">
 						<ul className="weather-factors float-left">
 							<li>
-								Feels like:<span>{todayData.feels}</span> °C
+								Feels like:{" "}
+								<strong>
+									<span>{todayData.feels}</span> °C
+								</strong>
 							</li>
 							<li>
-								Percipitation:<span>{todayData.percipitation}</span> %
+								Percipitation:{" "}
+								<strong>
+									<span>{todayData.percipitation}</span> %
+								</strong>
 							</li>
 							<li>
-								Humidity:<span>{todayData.humidity}</span> %
+								Humidity:{" "}
+								<strong>
+									<span>{todayData.humidity}</span> %
+								</strong>
 							</li>
 							<li>
-								Wind speed:<span>{todayData.wind}</span> Kmph
+								Wind speed:{" "}
+								<strong>
+									<span>{todayData.wind}</span> Kmph
+								</strong>
 							</li>
 						</ul>
 					</div>

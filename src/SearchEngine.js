@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SearchEngine.css";
+//import axios from "axios";
+
+// load local weather automatically
 
 export default function SearchEngine() {
+	//const [city,setCity]= useState{null};
+
+	//function currentWeather(){
+
+	//};
+
 	return (
 		<div className="SearchEngine">
 			<br />
@@ -25,7 +34,7 @@ export default function SearchEngine() {
 									value="Search"
 								>
 									{" "}
-									Search
+									Search{" "}
 								</button>
 							</div>
 							<div className="col-4">

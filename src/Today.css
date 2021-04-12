@@ -1,0 +1,53 @@
+.Today {
+	color: #505651;
+}
+
+.Today h1 {
+	margin: 0 auto;
+	padding: 5px 5px 5px;
+	font-size: 45px;
+	text-align: left;
+}
+
+.Today ul {
+	display: block;
+	padding: 5px 5px 5px;
+	list-style: none;
+	text-align: left;
+}
+
+.Today .weather-temperature {
+	padding: 15px 15px 15px 0px;
+}
+
+.Today img {
+	vertical-align: top;
+	line-height: 1;
+	max-width: 100px;
+	text-align: left;
+}
+
+.Today .temperature {
+	font-size: 55px;
+	position: relative;
+	padding: 15px 0px 10px 10px;
+}
+
+.Today .now-Data {
+	font-size: 18px;
+	height: 19px;
+	padding-bottom: 45px;
+}
+
+.Today .weather-factors {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 15px 15px 30px;
+	font-size: 14px;
+}
+
+.Today .units {
+	position: relative;
+	font-size: 14px;
+}
